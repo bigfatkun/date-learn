@@ -4,7 +4,6 @@ typedef struct {
     float Realpart;
     float Imagepart;
 }Complex;
-
 void Create(Complex& C,float X,float Y){
     C.Realpart=X;
     C.Imagepart=Y;
